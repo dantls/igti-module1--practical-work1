@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Título da página</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+  </head>
+  <body>
+    <div id="content">
+	<div id="seletores">
+		
+		<div>
+			<div id="r">
+				<label for="rInput">(R)Red:</label>
+				<div class="elementos">	
+					<input id="rInput" type="range" min="0" max="255" value="0" step="1">
+					<input id="textRInput" disabled type="text" />
+				</div>
+			</div>
+			<div id="g">
+				<label for="gInput">(G)Green:</label>
+				<div class="elementos">
+					<input id="gInput" type="range" min="0" max="255" value="0"  step="1">
+					<input id="textGInput" disabled type="text" />
+				</div>
+			</div>
+			<div id="b">
+				<label for="bInput">(B)Blue:</label>
+				<div class="elementos">
+					<input id="bInput" type="range" min="0" max="255" value="0" step="1">
+					<input id="textBInput" disabled type="text" />
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="resultado"></div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
